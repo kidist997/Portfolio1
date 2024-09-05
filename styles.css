@@ -30,12 +30,28 @@ body {
 .menu-text {
   margin-left: 30px;
 }
+
 .menu-text::before {
   content: "";
   position: fixed;
   left: 95px;
-  top: 100px;
+  top: 120px;
   bottom: 70px;
   width: 2px;
   background-color: #333;
+}
+.menu-text.dot::after {
+  content: "";
+  position: absolute;
+  left: 35px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 50%;
+  z-index: 1;
+}
+.menu-text.dot.active::after {
+  background-color: aqua;
 }
