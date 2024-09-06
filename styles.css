@@ -18,20 +18,20 @@ body {
   font-family: 900;
   margin-bottom: 20px;
 }
-.menu-items {
+.nav-items {
   position: relative;
 }
-.menu-items ul {
+.nav-items ul {
   list-style: none;
 }
-.menu-item {
+.nav-item {
   position: absolute;
 }
-.menu-text {
+.nav-text {
   margin-left: 30px;
 }
 
-.menu-text::before {
+.nav-text::before {
   content: "";
   position: fixed;
   left: 95px;
@@ -40,7 +40,7 @@ body {
   width: 2px;
   background-color: #333;
 }
-.menu-text.dot::after {
+.nav-text.dot::after {
   content: "";
   position: absolute;
   left: 35px;
@@ -51,7 +51,8 @@ body {
   background-color: #fff;
   border-radius: 50%;
   z-index: 1;
+  transition: background-color 0.4s ease;
 }
-.menu-text.dot.active::after {
+.nav-text.active::after {
   background-color: aqua;
 }
