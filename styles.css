@@ -1,13 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #000;
+
   font-family: "Poppins";
   color: #fff;
 }
 body {
   width: 100%;
   height: 100vh;
+  background-color: rgb(7, 7, 7);
 }
 #side-menu {
   margin: 60px;
@@ -29,6 +30,8 @@ body {
 }
 .nav-text {
   margin-left: 30px;
+  color: #333;
+  font-size: 18px;
 }
 
 .nav-text::before {
@@ -53,6 +56,16 @@ body {
   z-index: 1;
   transition: background-color 0.4s ease;
 }
-.nav-text.active::after {
+.nav-item.active .nav-text.dot::after {
   background-color: aqua;
+}
+
+.nav-number {
+  color: #333;
+  font-size: 18px;
+}
+
+.nav-item.active .nav-number,
+.nav-item.active .nav-text {
+  color: #fff;
 }
