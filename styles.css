@@ -109,7 +109,7 @@ body {
   align-items: center;
   visibility: hidden;
 
-  transition: right 0.5s ease;
+  transition: all 0.2s ease;
 }
 .hidden-nav ul {
   list-style-type: none;
@@ -175,4 +175,13 @@ body {
   to {
     transform: rotateY(360deg);
   }
+}
+button.resume {
+  background-color: purple;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-top: 47px;
 }
