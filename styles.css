@@ -208,7 +208,7 @@ button.resume {
 .about-description {
   width: 300px;
   background-color: #695f5f;
-  margin-right: 10px;
+  margin-right: 20px;
   padding: 10px;
   border-radius: 6px;
 }
@@ -218,13 +218,13 @@ button.resume {
   height: 210px;
   background-color: #4070f4;
   border-radius: 50%;
-  margin-right: 10px;
+  margin-right: 20px;
   padding: 3px;
 }
 .about-skills {
   width: 300px;
   background-color: #695f5f;
-  margin-right: 10px;
+  margin-right: 20px;
   padding: 10px;
   border-radius: 6px;
 }
@@ -242,7 +242,7 @@ button.resume {
   color: #070707;
 }
 .desc-main {
-  font-size: 13px;
+  font-size: 1vw;
   color: #070707;
 }
 .about-image img {
@@ -261,7 +261,26 @@ button.resume {
   color: #070707;
 }
 .about-skills {
-  font-size: 13px;
+  font-size: 1vw;
   color: #070707;
+  overflow: hidden;
+}
+.menu-active.nav-bar .about-description {
+  position: relative;
+  width: 500px;
+  height: 150px;
+  font-size: 0.5vw;
+  overflow: hidden;
+}
+.menu-active.nav-bar .about-image {
+  position: relative;
+  width: 500px;
+  height: 170px;
+}
+.menu-active.nav-bar .about-skills {
+  position: relative;
+  width: 500px;
+  height: 150px;
+  font-size: 0.5vw;
   overflow: hidden;
 }
