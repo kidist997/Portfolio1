@@ -287,9 +287,6 @@ button.resume {
 }
 /**portfolio*/
 
-.portfolio-button {
-  color: #070707;
-}
 .portfolio-list .portfolio-item {
   list-style: none;
   opacity: 0;
@@ -315,7 +312,7 @@ button.resume {
   font-size: 14px;
   font-weight: 500;
   color: #fff;
-  width: fit-content;
+  width: 100%;
   margin: 10px 350px;
   padding: 8px 16px;
 }
@@ -323,9 +320,8 @@ button.resume {
   font-size: 12px;
   font-weight: 500;
   color: #fff;
-  width: fit-content;
-  margin: 10px 250px;
-  padding: 8px 16px;
+  width: 100%;
+  margin: 10px 330px;
 }
 .portfolio-container {
   max-width: 800px;
