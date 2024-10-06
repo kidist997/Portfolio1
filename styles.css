@@ -5,6 +5,7 @@
   font-family: "Poppins", sans-serif;
   color: #fff;
 }
+
 body {
   width: 100%;
   height: 100vh;
@@ -283,4 +284,68 @@ button.resume {
   height: 150px;
   font-size: 0.5vw;
   overflow: hidden;
+}
+/**portfolio*/
+
+.portfolio-button {
+  color: #070707;
+}
+.portfolio-list .portfolio-item {
+  list-style: none;
+  opacity: 0;
+  transition: opacity 0.7s ease;
+  position: absolute;
+}
+.portfolio-item.show {
+  opacity: 1;
+  position: relative;
+}
+.portfolio-list .portfolio-item .portfolio-link {
+  user-select: none;
+
+  text-decoration: none;
+  position: relative;
+  margin: 0 250px;
+}
+.portfolio-list .portfolio-link .portfolio-image {
+  object-fit: cover;
+  border-radius: 50%;
+}
+.portfolio-list .portfolio-link .badge {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  width: fit-content;
+  margin: 10px 350px;
+  padding: 8px 16px;
+}
+.portfolio-list .portfolio-link .portfolio-title {
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  width: fit-content;
+  margin: 10px 250px;
+  padding: 8px 16px;
+}
+.portfolio-container {
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+}
+.portfolio-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: visible;
+  max-width: 100%;
+}
+
+.portfolio-list {
+  display: flex;
+  gap: 20px;
+}
+.arrow {
+  position: relative;
+  cursor: pointer;
+  top: -85px;
 }
