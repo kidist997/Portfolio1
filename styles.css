@@ -316,6 +316,7 @@ button.resume {
 
   margin: 10px 350px;
   padding: 8px 16px;
+  margin-left: 330px;
 }
 .portfolio-list .portfolio-link .portfolio-title {
   font-size: 12px;
@@ -326,6 +327,7 @@ button.resume {
   margin: 10px 330px;
 
   padding: 8px 16px;
+  margin-left: 319px;
 }
 .portfolio-container {
   max-width: 800px;
@@ -348,4 +350,10 @@ button.resume {
   position: relative;
   cursor: pointer;
   top: -85px;
+}
+.right-arrow {
+  position: absolute;
+  right: 3px;
+  top: 125px;
+  bottom: 85px;
 }
