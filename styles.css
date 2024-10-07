@@ -362,3 +362,6 @@ button.resume {
   left: 1px;
   overflow: hidden;
 }
+.menu-active.nav-bar .left-arrow {
+  visibility: hidden;
+}
