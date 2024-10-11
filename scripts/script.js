@@ -1,5 +1,5 @@
 const menuIcon = document.getElementById("menu-icon");
-const pageContent = document.querySelector(".nav-bar");
+const pageContent = document.querySelector(".container");
 const sideNav = document.getElementById("hidden-nav");
 
 menuIcon.addEventListener("click", () => {
