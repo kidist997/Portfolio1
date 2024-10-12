@@ -176,6 +176,9 @@ body {
   opacity: 0;
   pointer-events: none;
 }
+.menu-active.container .nav-text::before {
+  height: 455px;
+}
 @keyframes rotateImage {
   from {
     transform: rotateY(0deg);
@@ -440,4 +443,12 @@ button.resume {
 }
 .testimonial p {
   color: #070707;
+}
+.menu-active.container .testimonil-container {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
