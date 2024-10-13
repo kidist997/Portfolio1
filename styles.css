@@ -290,7 +290,6 @@ button.resume {
 }
 /**portfolio*/
 .portfolio-container {
-  max-width: 800px;
   display: flex;
   justify-content: center;
 }
@@ -300,11 +299,12 @@ button.resume {
   position: relative;
   overflow: visible;
   max-width: 100%;
+  border: 1px solid #fff;
+  left: 100px;
+  width: 550px;
 }
-
 .portfolio-list {
-  display: flex;
-  gap: 20px;
+  left: 5px;
 }
 .portfolio-list .portfolio-item {
   list-style: none;
@@ -316,38 +316,6 @@ button.resume {
   opacity: 1;
   position: relative;
 }
-.portfolio-list .portfolio-item .portfolio-link {
-  text-decoration: none;
-  position: relative;
-  margin: 0 250px;
-}
-.portfolio-list .portfolio-link .portfolio-image {
-  object-fit: cover;
-  border-radius: 50%;
-}
-.portfolio-list .badge {
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-  color: #fff;
-
-  width: 100%;
-
-  margin: 5px 350px;
-  padding: 5px 16px;
-  margin-left: 330px;
-}
-.portfolio-list .portfolio-link .portfolio-title {
-  font-size: 12px;
-  font-weight: 500;
-  color: #fff;
-
-  width: 100%;
-  margin: 10px 330px;
-
-  padding: 8px 16px;
-  margin-left: 319px;
-}
 
 .arrow {
   position: relative;
@@ -357,18 +325,55 @@ button.resume {
   position: fixed;
   right: 183px;
 
-  top: 225px;
+  top: 228px;
   bottom: 85px;
 }
 .left-arrow {
-  position: absolute;
-  left: 3px;
+  position: fixed;
+  left: 273px;
 
-  top: 125px;
+  top: 225px;
   bottom: 85px;
-  z-index: 1;
 }
-
+.portfolio-link {
+  width: 500px;
+  height: 500px;
+  border: 1px solid red;
+  position: relative;
+  left: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+}
+.portfolio-list .portfolio-link .portfolio-image {
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+.portfolio-list .portfolio-link .portfol-image {
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  width: 308px;
+  height: 318px;
+  border: 1px solid red;
+  object-fit: contain;
+}
+.portfolio-list .badge {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #6b4a02;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  padding: 4px;
+  width: 100px;
+  background-color: #3498db;
+  color: #fff;
+}
 .menu-active.container .portfolio-container {
   position: fixed;
   left: 1px;
