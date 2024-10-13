@@ -527,3 +527,11 @@ button.resume {
   margin: 0 auto;
   margin-top: 10px;
 }
+.menu-active.container .contacts-container {
+  width: 520px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
