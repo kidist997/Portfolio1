@@ -503,3 +503,27 @@ button.resume {
 .contact-medias button {
   margin: 10px;
 }
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+.form-container input {
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  background-color: #acacac;
+}
+.form-container textarea {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #acacac;
+}
+.form-container .submit {
+  color: #333;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
