@@ -195,6 +195,7 @@ button.resume {
   border-radius: 6px;
   font-size: 16px;
   margin-top: 47px;
+  cursor: pointer;
 }
 /** about starts*/
 .about-head {
@@ -208,11 +209,12 @@ button.resume {
   align-items: flex-start;
   justify-content: flex-start;
   top: 150px;
+  left: 48px;
 }
 .about-description {
   width: 300px;
   background-color: #695f5f;
-  margin-right: 20px;
+  margin-right: 25px;
   padding: 10px;
   border-radius: 6px;
 }
@@ -222,7 +224,7 @@ button.resume {
   height: 210px;
   background-color: #4070f4;
   border-radius: 50%;
-  margin-right: 20px;
+  margin-right: 25px;
   padding: 3px;
 }
 .about-skills {
@@ -264,7 +266,7 @@ button.resume {
   margin-bottom: 10px;
   color: #070707;
 }
-.about-skills {
+.about-skill {
   font-size: 1vw;
   color: #070707;
   overflow: hidden;
@@ -543,4 +545,291 @@ button.resume {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+/**responsive*/
+@media (max-width: 575.98px) {
+  .nav-items {
+    display: none;
+  }
+  .hero-section {
+    left: 20px;
+    top: 45px;
+    font-size: 20px;
+  }
+  .image-container {
+    top: 90px;
+    left: 295px;
+  }
+
+  .image-3d {
+    width: 100px;
+    height: 100px;
+    left: 40px;
+  }
+
+  .menu-active.container {
+    left: 30px;
+    top: 50px;
+
+    width: 250px;
+    height: 400px;
+  }
+  .hidden-nav ul li a {
+    font-size: 20px;
+  }
+  .hidden-nav li a.active {
+    text-decoration-thickness: 5px;
+  }
+  .menu-active.hidden-nav {
+    top: 20px;
+
+    font-size: 5px;
+    width: 60px;
+    left: 300px;
+  }
+  /**about*/
+  .about-contents {
+    width: 480px;
+    height: 300px;
+  }
+  .about-head {
+    left: 249px;
+    top: 50px;
+    font-size: 34px;
+  }
+  .about-description {
+    margin-right: 10px;
+    height: 269px;
+    overflow: hidden;
+  }
+  .desc-main {
+    font-size: 10px;
+  }
+  .about-image {
+    margin-right: 10px;
+  }
+  .about-skill {
+    height: 200px;
+    font-size: 10px;
+  }
+  .menu-active.container .about-contents {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    left: 10px;
+    gap: 10px;
+    top: 52px;
+  }
+  .menu-active.container .about-description {
+    width: 150px;
+    height: 99px;
+  }
+  .menu-active.container .about-image {
+    width: 150px;
+    height: 99px;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-active.container .about-skills {
+    width: 150px;
+    height: 99px;
+  }
+  .menu-active.container .about-head {
+    left: 40px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .hero-section {
+    font-size: 1rem;
+  }
+  .image-container {
+    top: 90px;
+    left: 295px;
+  }
+
+  .image-3d {
+    position: relative;
+    width: 150px;
+    height: 110px;
+    left: 140px;
+  }
+
+  .menu-active.container {
+    left: 30px;
+    top: 50px;
+
+    width: 450px;
+    height: 600px;
+  }
+  .hidden-nav ul li a {
+    font-size: 20px;
+  }
+  .hidden-nav li a.active {
+    text-decoration-thickness: 5px;
+  }
+  .menu-active.hidden-nav {
+    top: 50px;
+
+    font-size: 5px;
+    width: 60px;
+    left: 450px;
+  }
+  /**about*/
+  .about-contents {
+    width: 480px;
+    height: 300px;
+  }
+  .about-head {
+    left: 249px;
+    top: 50px;
+    font-size: 34px;
+  }
+  .about-description {
+    margin-right: 10px;
+    height: 269px;
+    overflow: hidden;
+  }
+  .desc-main {
+    font-size: 10px;
+  }
+  .about-image {
+    margin-right: 10px;
+  }
+  .about-skill {
+    height: 200px;
+    font-size: 10px;
+  }
+  .menu-active.container .about-contents {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    left: 10px;
+    gap: 10px;
+  }
+  .menu-active.container .about-description {
+    width: 150px;
+    height: 99px;
+  }
+  .menu-active.container .about-image {
+    width: 150px;
+    height: 99px;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-active.container .about-skills {
+    width: 150px;
+    height: 99px;
+  }
+  .menu-active.container .about-head {
+    left: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero-section {
+    font-size: 2rem;
+  }
+  .image-container {
+    top: 90px;
+    left: 599px;
+  }
+
+  .image-3d {
+    position: relative;
+    width: 270px;
+    object-fit: cover;
+    height: 320px;
+    left: 40px;
+  }
+
+  .menu-active.container {
+    left: 30px;
+    top: 50px;
+
+    width: 699px;
+    height: 600px;
+  }
+  .hidden-nav ul li a {
+    font-size: 30px;
+  }
+  .hidden-nav li a.active {
+    text-decoration-thickness: 5px;
+  }
+  .menu-active.hidden-nav {
+    top: 50px;
+
+    width: 60px;
+    left: 650px;
+  }
+  /**about*/
+  .about-contents {
+    width: 600px;
+    height: 400px;
+  }
+  .about-description {
+    margin-right: 10px;
+  }
+  .desc-main {
+    font-size: 15px;
+  }
+  .about-image {
+    margin-right: 10px;
+  }
+  .about-skill {
+    height: 200px;
+    font-size: 15px;
+  }
+  .menu-active.container .about-contents {
+    width: 400px;
+    height: 200px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .hero-section {
+    font-size: 2rem;
+  }
+  .image-container {
+    top: 90px;
+    left: 595px;
+  }
+
+  .image-3d {
+    position: relative;
+    width: 270px;
+    object-fit: cover;
+    height: 320px;
+    left: 40px;
+  }
+
+  .menu-active.container {
+    left: 30px;
+    top: 50px;
+
+    width: 899px;
+    height: 600px;
+  }
+  .hidden-nav ul li a {
+    font-size: 30px;
+  }
+  .hidden-nav li a.active {
+    text-decoration-thickness: 5px;
+  }
+  .menu-active.hidden-nav {
+    top: 50px;
+
+    width: 60px;
+    left: 848px;
+  }
+  /**about*/
+
+  .about-contents {
+    width: 700px;
+  }
+  .about-description {
+    margin-right: 10px;
+  }
+  .about-image {
+    margin-right: 10px;
+  }
 }
